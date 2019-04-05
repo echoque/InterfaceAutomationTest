@@ -17,7 +17,7 @@ class DeptManagment(BaseAPI):
 
     def create_dept(self):
         new_part={
-       "name": "echo122测试部",
+       "name": "T4测试部",
        "parentid": 1,
        "order": 1
         }
@@ -44,10 +44,10 @@ class DeptManagment(BaseAPI):
     def update_department(self):
 
         update_part={
-       "id": 2,
-       "name": "zyq201903311111",
+       "id": 5,
+       "name": "T5测试部",
        "parentid": 1,
-       "order": 1
+       "order": 5
 }
         param = {'access_token':self.get_token(self.dep_secure)}
         self.post_json(self.update_dep_url,update_part,params=param)

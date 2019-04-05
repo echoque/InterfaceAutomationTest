@@ -27,7 +27,8 @@ if __name__ == '__main__':
 
     # pytest.main(['-sq', 'testcases/contact/department/test_createdep.py'])
     # pytest.main(['-sq', 'testcases/contact/department/test_updatedep.py'])
-    pytest.main(['-sq', 'testcases/'])
+    pytest.main(['-sq','testcases/contact/member/test_createmem.py'])
+    # pytest.main(['-sq', 'testcases/'])
     #pytest.main(['-sq', 'testcases'])
 
     #pytest.main(['-sq', '--alluredir', 'testreport.bak', 'testcases/shoppingonline/test_update_shopping_info.py::TestUpdateShoppingInfo::test_1453775'])

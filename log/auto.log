@@ -271,3 +271,223 @@
 2019-03-31 18:25:34,531 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
 2019-03-31 18:25:34,863 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/update?access_token=BC1zsu1cg1YWKAg9Qhqr8lpkpmsOb1CvNlo0HFCRwxkAsE-KALm5UeFdLoHWlLfJyGkVBweUiO_IwMaIFWTuK8XYHPtEXZUUrGLzJTASBKAdTXfsnMeccPxN37IC5REoq4Agl_Jp6Uu9BBSUgqCBwz_6y_5Lr2MLP58WSnt5VheMbY70DpBXDswfO9dOigUuUHT2whDy1SpcE2y_tqM_UA HTTP/1.1" 200 32
 2019-03-31 18:25:34,874 root INFO runner:37 End to execute APP UI automaction cases
+2019-04-02 21:20:33,775 root INFO runner:25 Start to execute  automation cases
+2019-04-02 21:20:35,236 root INFO baseapi:12 init base api interface
+2019-04-02 21:20:35,236 root INFO depmanagment:12 Init department management API
+2019-04-02 21:20:35,236 root INFO baseapi:20 params{'corpid': 'wwfe4174faec32f8b3', 'corpsecret': 'PgnL0IVtMoCkpcdcURPs8COvwaPVD8pk5LGgwQgPXGg'}
+2019-04-02 21:20:35,236 root INFO baseapi:21 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-02 21:20:35,252 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-02 21:20:36,302 root INFO baseapi:12 init base api interface
+2019-04-02 21:20:36,302 root INFO depmanagment:12 Init department management API
+2019-04-02 21:20:36,302 root INFO baseapi:20 params{'corpid': 'wwfe4174faec32f8b3', 'corpsecret': 'PgnL0IVtMoCkpcdcURPs8COvwaPVD8pk5LGgwQgPXGg'}
+2019-04-02 21:20:36,302 root INFO baseapi:21 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-02 21:20:36,304 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-02 21:20:36,670 root INFO runner:37 End to execute APP UI automaction cases
+2019-04-02 21:22:23,448 root INFO runner:25 Start to execute  automation cases
+2019-04-02 21:22:23,888 root INFO baseapi:12 init base api interface
+2019-04-02 21:22:23,888 root INFO depmanagment:12 Init department management API
+2019-04-02 21:22:23,888 root INFO baseapi:20 params{'corpid': 'wwfe4174faec32f8b3', 'corpsecret': 'PgnL0IVtMoCkpcdcURPs8COvwaPVD8pk5LGgwQgPXGg'}
+2019-04-02 21:22:23,888 root INFO baseapi:21 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-02 21:22:23,892 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-02 21:22:24,312 root INFO baseapi:12 init base api interface
+2019-04-02 21:22:24,312 root INFO depmanagment:12 Init department management API
+2019-04-02 21:22:24,312 root INFO baseapi:20 params{'corpid': 'wwfe4174faec32f8b3', 'corpsecret': 'PgnL0IVtMoCkpcdcURPs8COvwaPVD8pk5LGgwQgPXGg'}
+2019-04-02 21:22:24,312 root INFO baseapi:21 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-02 21:22:24,315 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-02 21:22:24,697 root INFO runner:37 End to execute APP UI automaction cases
+2019-04-02 21:22:41,071 root INFO runner:25 Start to execute  automation cases
+2019-04-02 21:22:41,516 root INFO baseapi:12 init base api interface
+2019-04-02 21:22:41,516 root INFO depmanagment:12 Init department management API
+2019-04-02 21:22:41,516 root INFO baseapi:20 params{'corpid': 'wwfe4174faec32f8b3', 'corpsecret': 'PgnL0IVtMoCkpcdcURPs8COvwaPVD8pk5LGgwQgPXGg'}
+2019-04-02 21:22:41,516 root INFO baseapi:21 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-02 21:22:41,520 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-02 21:22:41,808 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwfe4174faec32f8b3&corpsecret=PgnL0IVtMoCkpcdcURPs8COvwaPVD8pk5LGgwQgPXGg HTTP/1.1" 200 277
+2019-04-02 21:22:41,809 root INFO baseapi:23 responselog{'errcode': 0, 'errmsg': 'ok', 'access_token': 'aXHJuoc_AsukoUjgC6Fyz9F22vCCAoPt-JFmgd43VOjwLcymM4v04Lk6DTz6hTuuRAk9UB7GP8NbnsBfVUYoiSmVeBTGHX2PcRUUrFRWCt6RHquSwyTDbUyZmymRP1h_uxa1qVYWu9vTgGbD8a-AQzmUIY4HANxdKWLUH1zeOInJN1s7IpQP_NZe19Pa6JKrWGkyv6A0tsxyZyGRkwtI8g', 'expires_in': 7200}
+2019-04-02 21:22:41,809 root DEBUG depmanagment:26 url:https://qyapi.weixin.qq.com/cgi-bin/department/create
+2019-04-02 21:22:41,811 root DEBUG depmanagment:27 params:{'access_token': 'aXHJuoc_AsukoUjgC6Fyz9F22vCCAoPt-JFmgd43VOjwLcymM4v04Lk6DTz6hTuuRAk9UB7GP8NbnsBfVUYoiSmVeBTGHX2PcRUUrFRWCt6RHquSwyTDbUyZmymRP1h_uxa1qVYWu9vTgGbD8a-AQzmUIY4HANxdKWLUH1zeOInJN1s7IpQP_NZe19Pa6JKrWGkyv6A0tsxyZyGRkwtI8g'}
+2019-04-02 21:22:41,812 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-02 21:22:42,079 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=aXHJuoc_AsukoUjgC6Fyz9F22vCCAoPt-JFmgd43VOjwLcymM4v04Lk6DTz6hTuuRAk9UB7GP8NbnsBfVUYoiSmVeBTGHX2PcRUUrFRWCt6RHquSwyTDbUyZmymRP1h_uxa1qVYWu9vTgGbD8a-AQzmUIY4HANxdKWLUH1zeOInJN1s7IpQP_NZe19Pa6JKrWGkyv6A0tsxyZyGRkwtI8g HTTP/1.1" 200 170
+2019-04-02 21:22:42,232 root INFO baseapi:12 init base api interface
+2019-04-02 21:22:42,233 root INFO depmanagment:12 Init department management API
+2019-04-02 21:22:42,233 root INFO baseapi:20 params{'corpid': 'wwfe4174faec32f8b3', 'corpsecret': 'PgnL0IVtMoCkpcdcURPs8COvwaPVD8pk5LGgwQgPXGg'}
+2019-04-02 21:22:42,233 root INFO baseapi:21 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-02 21:22:42,236 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-02 21:22:42,476 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwfe4174faec32f8b3&corpsecret=PgnL0IVtMoCkpcdcURPs8COvwaPVD8pk5LGgwQgPXGg HTTP/1.1" 200 277
+2019-04-02 21:22:42,479 root INFO baseapi:23 responselog{'errcode': 0, 'errmsg': 'ok', 'access_token': 'aXHJuoc_AsukoUjgC6Fyz9F22vCCAoPt-JFmgd43VOjwLcymM4v04Lk6DTz6hTuuRAk9UB7GP8NbnsBfVUYoiSmVeBTGHX2PcRUUrFRWCt6RHquSwyTDbUyZmymRP1h_uxa1qVYWu9vTgGbD8a-AQzmUIY4HANxdKWLUH1zeOInJN1s7IpQP_NZe19Pa6JKrWGkyv6A0tsxyZyGRkwtI8g', 'expires_in': 7200}
+2019-04-02 21:22:42,483 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-02 21:22:42,822 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/update?access_token=aXHJuoc_AsukoUjgC6Fyz9F22vCCAoPt-JFmgd43VOjwLcymM4v04Lk6DTz6hTuuRAk9UB7GP8NbnsBfVUYoiSmVeBTGHX2PcRUUrFRWCt6RHquSwyTDbUyZmymRP1h_uxa1qVYWu9vTgGbD8a-AQzmUIY4HANxdKWLUH1zeOInJN1s7IpQP_NZe19Pa6JKrWGkyv6A0tsxyZyGRkwtI8g HTTP/1.1" 200 32
+2019-04-02 21:22:42,835 root INFO runner:37 End to execute APP UI automaction cases
+2019-04-02 21:44:23,903 root INFO runner:25 Start to execute  automation cases
+2019-04-02 21:44:24,094 root INFO runner:38 End to execute APP UI automaction cases
+2019-04-02 21:45:02,793 root INFO runner:25 Start to execute  automation cases
+2019-04-02 21:45:03,238 root INFO baseapi:12 init base api interface
+2019-04-02 21:45:03,238 root INFO membermanagment:12 Init department management API
+2019-04-02 21:45:03,395 root INFO runner:38 End to execute APP UI automaction cases
+2019-04-05 15:48:05,959 root INFO runner:25 Start to execute  automation cases
+2019-04-05 15:48:07,098 root INFO baseapi:12 init base api interface
+2019-04-05 15:48:07,098 root INFO depmanagment:12 Init department management API
+2019-04-05 15:48:07,098 root INFO baseapi:20 params{'corpid': 'wwfe4174faec32f8b3', 'corpsecret': 'PgnL0IVtMoCkpcdcURPs8COvwaPVD8pk5LGgwQgPXGg'}
+2019-04-05 15:48:07,098 root INFO baseapi:21 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-05 15:48:07,111 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-05 15:48:07,456 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwfe4174faec32f8b3&corpsecret=PgnL0IVtMoCkpcdcURPs8COvwaPVD8pk5LGgwQgPXGg HTTP/1.1" 200 277
+2019-04-05 15:48:07,463 root INFO baseapi:23 responselog{'errcode': 0, 'errmsg': 'ok', 'access_token': 'MRpbUzIqzNVb_IsBHLICtIU9EZ_1tL0zB8Drz_3z_gcDp636NiYheUtPm2ddVAsakV-MWWGi6vldXf36fUQL4LXM4lCL3nC64zRZP4Oa_nhGxTSiHSYATEtPw1OtuGBLAMhCqz3Wz8ZmwkaKpZqoK4y_0tGBA81zFaO7upXRU-XCXrtkxVZTIDvv2dLfoiuSkpV4jEST03BGLGYJJzas0Q', 'expires_in': 7200}
+2019-04-05 15:48:07,463 root DEBUG depmanagment:26 url:https://qyapi.weixin.qq.com/cgi-bin/department/create
+2019-04-05 15:48:07,463 root DEBUG depmanagment:27 params:{'access_token': 'MRpbUzIqzNVb_IsBHLICtIU9EZ_1tL0zB8Drz_3z_gcDp636NiYheUtPm2ddVAsakV-MWWGi6vldXf36fUQL4LXM4lCL3nC64zRZP4Oa_nhGxTSiHSYATEtPw1OtuGBLAMhCqz3Wz8ZmwkaKpZqoK4y_0tGBA81zFaO7upXRU-XCXrtkxVZTIDvv2dLfoiuSkpV4jEST03BGLGYJJzas0Q'}
+2019-04-05 15:48:07,470 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-05 15:48:07,799 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=MRpbUzIqzNVb_IsBHLICtIU9EZ_1tL0zB8Drz_3z_gcDp636NiYheUtPm2ddVAsakV-MWWGi6vldXf36fUQL4LXM4lCL3nC64zRZP4Oa_nhGxTSiHSYATEtPw1OtuGBLAMhCqz3Wz8ZmwkaKpZqoK4y_0tGBA81zFaO7upXRU-XCXrtkxVZTIDvv2dLfoiuSkpV4jEST03BGLGYJJzas0Q HTTP/1.1" 200 39
+2019-04-05 15:48:07,850 root INFO runner:38 End to execute APP UI automaction cases
+2019-04-05 15:55:10,200 root INFO runner:25 Start to execute  automation cases
+2019-04-05 15:55:10,595 root INFO baseapi:12 init base api interface
+2019-04-05 15:55:10,595 root INFO depmanagment:12 Init department management API
+2019-04-05 15:55:10,595 root INFO baseapi:20 params{'corpid': 'wwfe4174faec32f8b3', 'corpsecret': 'PgnL0IVtMoCkpcdcURPs8COvwaPVD8pk5LGgwQgPXGg'}
+2019-04-05 15:55:10,595 root INFO baseapi:21 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-05 15:55:10,599 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-05 15:55:11,215 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwfe4174faec32f8b3&corpsecret=PgnL0IVtMoCkpcdcURPs8COvwaPVD8pk5LGgwQgPXGg HTTP/1.1" 200 277
+2019-04-05 15:55:11,224 root INFO baseapi:23 responselog{'errcode': 0, 'errmsg': 'ok', 'access_token': 'MRpbUzIqzNVb_IsBHLICtIU9EZ_1tL0zB8Drz_3z_gcDp636NiYheUtPm2ddVAsakV-MWWGi6vldXf36fUQL4LXM4lCL3nC64zRZP4Oa_nhGxTSiHSYATEtPw1OtuGBLAMhCqz3Wz8ZmwkaKpZqoK4y_0tGBA81zFaO7upXRU-XCXrtkxVZTIDvv2dLfoiuSkpV4jEST03BGLGYJJzas0Q', 'expires_in': 7200}
+2019-04-05 15:55:11,225 root DEBUG depmanagment:26 url:https://qyapi.weixin.qq.com/cgi-bin/department/create
+2019-04-05 15:55:11,226 root DEBUG depmanagment:27 params:{'access_token': 'MRpbUzIqzNVb_IsBHLICtIU9EZ_1tL0zB8Drz_3z_gcDp636NiYheUtPm2ddVAsakV-MWWGi6vldXf36fUQL4LXM4lCL3nC64zRZP4Oa_nhGxTSiHSYATEtPw1OtuGBLAMhCqz3Wz8ZmwkaKpZqoK4y_0tGBA81zFaO7upXRU-XCXrtkxVZTIDvv2dLfoiuSkpV4jEST03BGLGYJJzas0Q'}
+2019-04-05 15:55:11,238 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-05 15:55:11,544 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=MRpbUzIqzNVb_IsBHLICtIU9EZ_1tL0zB8Drz_3z_gcDp636NiYheUtPm2ddVAsakV-MWWGi6vldXf36fUQL4LXM4lCL3nC64zRZP4Oa_nhGxTSiHSYATEtPw1OtuGBLAMhCqz3Wz8ZmwkaKpZqoK4y_0tGBA81zFaO7upXRU-XCXrtkxVZTIDvv2dLfoiuSkpV4jEST03BGLGYJJzas0Q HTTP/1.1" 200 170
+2019-04-05 15:55:11,732 root INFO runner:38 End to execute APP UI automaction cases
+2019-04-05 15:56:20,368 root INFO runner:25 Start to execute  automation cases
+2019-04-05 15:56:20,742 root INFO baseapi:12 init base api interface
+2019-04-05 15:56:20,742 root INFO depmanagment:12 Init department management API
+2019-04-05 15:56:20,742 root INFO baseapi:20 params{'corpid': 'wwfe4174faec32f8b3', 'corpsecret': 'PgnL0IVtMoCkpcdcURPs8COvwaPVD8pk5LGgwQgPXGg'}
+2019-04-05 15:56:20,742 root INFO baseapi:21 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-05 15:56:20,746 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-05 15:56:21,040 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwfe4174faec32f8b3&corpsecret=PgnL0IVtMoCkpcdcURPs8COvwaPVD8pk5LGgwQgPXGg HTTP/1.1" 200 277
+2019-04-05 15:56:21,043 root INFO baseapi:23 responselog{'errcode': 0, 'errmsg': 'ok', 'access_token': 'MRpbUzIqzNVb_IsBHLICtIU9EZ_1tL0zB8Drz_3z_gcDp636NiYheUtPm2ddVAsakV-MWWGi6vldXf36fUQL4LXM4lCL3nC64zRZP4Oa_nhGxTSiHSYATEtPw1OtuGBLAMhCqz3Wz8ZmwkaKpZqoK4y_0tGBA81zFaO7upXRU-XCXrtkxVZTIDvv2dLfoiuSkpV4jEST03BGLGYJJzas0Q', 'expires_in': 7200}
+2019-04-05 15:56:21,046 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-05 15:56:21,413 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/update?access_token=MRpbUzIqzNVb_IsBHLICtIU9EZ_1tL0zB8Drz_3z_gcDp636NiYheUtPm2ddVAsakV-MWWGi6vldXf36fUQL4LXM4lCL3nC64zRZP4Oa_nhGxTSiHSYATEtPw1OtuGBLAMhCqz3Wz8ZmwkaKpZqoK4y_0tGBA81zFaO7upXRU-XCXrtkxVZTIDvv2dLfoiuSkpV4jEST03BGLGYJJzas0Q HTTP/1.1" 200 32
+2019-04-05 15:56:21,438 root INFO runner:38 End to execute APP UI automaction cases
+2019-04-05 16:06:08,197 root INFO runner:25 Start to execute  automation cases
+2019-04-05 16:06:08,597 root INFO baseapi:12 init base api interface
+2019-04-05 16:06:08,597 root INFO membermanagment:12 Init department management API
+2019-04-05 16:06:08,786 root INFO runner:38 End to execute APP UI automaction cases
+2019-04-05 16:09:02,842 root INFO runner:25 Start to execute  automation cases
+2019-04-05 16:09:03,212 root INFO baseapi:12 init base api interface
+2019-04-05 16:09:03,213 root INFO membermanagment:12 Init department management API
+2019-04-05 16:09:03,373 root INFO runner:38 End to execute APP UI automaction cases
+2019-04-05 16:17:06,522 root INFO runner:25 Start to execute  automation cases
+2019-04-05 16:17:06,901 root INFO baseapi:12 init base api interface
+2019-04-05 16:17:06,901 root INFO membermanagment:12 Init department management API
+2019-04-05 16:17:07,049 root INFO runner:38 End to execute APP UI automaction cases
+2019-04-05 16:21:45,219 root INFO runner:25 Start to execute  automation cases
+2019-04-05 16:21:45,601 root INFO baseapi:12 init base api interface
+2019-04-05 16:21:45,601 root INFO membermanagment:12 Init department management API
+2019-04-05 16:21:45,765 root INFO runner:38 End to execute APP UI automaction cases
+2019-04-05 16:45:59,797 root INFO runner:25 Start to execute  automation cases
+2019-04-05 16:46:00,183 root INFO baseapi:12 init base api interface
+2019-04-05 16:46:00,184 root INFO membermanagment:12 Init department management API
+2019-04-05 16:46:00,352 root INFO runner:38 End to execute APP UI automaction cases
+2019-04-05 16:53:48,603 root INFO runner:25 Start to execute  automation cases
+2019-04-05 16:53:48,986 root INFO baseapi:12 init base api interface
+2019-04-05 16:53:48,986 root INFO membermanagment:12 Init department management API
+2019-04-05 16:53:49,144 root INFO runner:38 End to execute APP UI automaction cases
+2019-04-05 16:57:42,524 root INFO runner:25 Start to execute  automation cases
+2019-04-05 16:57:42,902 root INFO baseapi:12 init base api interface
+2019-04-05 16:57:42,902 root INFO membermanagment:12 Init department management API
+2019-04-05 16:57:43,072 root INFO runner:38 End to execute APP UI automaction cases
+2019-04-05 16:58:44,636 root INFO runner:25 Start to execute  automation cases
+2019-04-05 16:58:45,011 root INFO baseapi:12 init base api interface
+2019-04-05 16:58:45,012 root INFO membermanagment:12 Init department management API
+2019-04-05 16:58:45,167 root INFO runner:38 End to execute APP UI automaction cases
+2019-04-05 16:59:01,103 root INFO runner:25 Start to execute  automation cases
+2019-04-05 16:59:01,491 root INFO baseapi:12 init base api interface
+2019-04-05 16:59:01,492 root INFO membermanagment:12 Init department management API
+2019-04-05 16:59:01,647 root INFO runner:38 End to execute APP UI automaction cases
+2019-04-05 17:03:16,795 root INFO runner:25 Start to execute  automation cases
+2019-04-05 17:03:17,239 root INFO baseapi:12 init base api interface
+2019-04-05 17:03:17,239 root INFO membermanagment:12 Init department management API
+2019-04-05 17:03:17,440 root INFO runner:38 End to execute APP UI automaction cases
+2019-04-05 17:18:40,304 root INFO runner:25 Start to execute  automation cases
+2019-04-05 17:18:40,709 root INFO baseapi:12 init base api interface
+2019-04-05 17:18:40,709 root INFO membermanagment:12 Init department management API
+2019-04-05 17:18:40,864 root INFO runner:38 End to execute APP UI automaction cases
+2019-04-05 17:19:23,254 root INFO runner:25 Start to execute  automation cases
+2019-04-05 17:19:23,650 root INFO baseapi:12 init base api interface
+2019-04-05 17:19:23,650 root INFO membermanagment:12 Init department management API
+2019-04-05 17:19:23,826 root INFO runner:38 End to execute APP UI automaction cases
+2019-04-05 22:59:32,618 root INFO runner:25 Start to execute  automation cases
+2019-04-05 22:59:33,020 root INFO baseapi:12 init base api interface
+2019-04-05 22:59:33,020 root INFO membermanagment:12 Init department management API
+2019-04-05 22:59:33,201 root INFO runner:38 End to execute APP UI automaction cases
+2019-04-05 23:01:08,424 root INFO runner:25 Start to execute  automation cases
+2019-04-05 23:01:08,828 root INFO baseapi:12 init base api interface
+2019-04-05 23:01:08,828 root INFO membermanagment:12 Init department management API
+2019-04-05 23:01:09,006 root INFO runner:38 End to execute APP UI automaction cases
+2019-04-05 23:02:25,848 root INFO runner:25 Start to execute  automation cases
+2019-04-05 23:02:26,243 root INFO baseapi:12 init base api interface
+2019-04-05 23:02:26,243 root INFO membermanagment:12 Init department management API
+2019-04-05 23:02:26,406 root INFO runner:38 End to execute APP UI automaction cases
+2019-04-05 23:03:20,326 root INFO runner:25 Start to execute  automation cases
+2019-04-05 23:03:20,707 root INFO baseapi:12 init base api interface
+2019-04-05 23:03:20,708 root INFO membermanagment:12 Init department management API
+2019-04-05 23:03:20,875 root INFO runner:38 End to execute APP UI automaction cases
+2019-04-05 23:03:27,338 root INFO runner:25 Start to execute  automation cases
+2019-04-05 23:03:28,431 root INFO baseapi:12 init base api interface
+2019-04-05 23:03:28,431 root INFO membermanagment:12 Init department management API
+2019-04-05 23:05:53,880 root INFO runner:25 Start to execute  automation cases
+2019-04-05 23:05:54,260 root INFO baseapi:12 init base api interface
+2019-04-05 23:05:54,262 root INFO membermanagment:12 Init department management API
+2019-04-05 23:05:54,425 root INFO runner:38 End to execute APP UI automaction cases
+2019-04-05 23:07:45,206 root INFO runner:25 Start to execute  automation cases
+2019-04-05 23:07:45,617 root INFO baseapi:12 init base api interface
+2019-04-05 23:07:45,617 root INFO membermanagment:12 Init department management API
+2019-04-05 23:07:45,807 root INFO runner:38 End to execute APP UI automaction cases
+2019-04-05 23:13:11,416 root INFO runner:25 Start to execute  automation cases
+2019-04-05 23:13:11,833 root INFO baseapi:12 init base api interface
+2019-04-05 23:13:11,833 root INFO membermanagment:12 Init department management API
+2019-04-05 23:13:12,003 root INFO runner:38 End to execute APP UI automaction cases
+2019-04-05 23:18:21,625 root INFO runner:25 Start to execute  automation cases
+2019-04-05 23:18:22,038 root INFO baseapi:12 init base api interface
+2019-04-05 23:18:22,039 root INFO membermanagment:12 Init department management API
+2019-04-05 23:18:22,198 root INFO runner:38 End to execute APP UI automaction cases
+2019-04-05 23:18:52,403 root INFO runner:25 Start to execute  automation cases
+2019-04-05 23:18:52,792 root INFO baseapi:12 init base api interface
+2019-04-05 23:18:52,792 root INFO membermanagment:12 Init department management API
+2019-04-05 23:18:52,792 root INFO baseapi:20 params{'corpid': 'wwfe4174faec32f8b3', 'corpsecret': 'PgnL0IVtMoCkpcdcURPs8COvwaPVD8pk5LGgwQgPXGg'}
+2019-04-05 23:18:52,792 root INFO baseapi:21 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-05 23:18:52,806 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-05 23:18:53,529 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwfe4174faec32f8b3&corpsecret=PgnL0IVtMoCkpcdcURPs8COvwaPVD8pk5LGgwQgPXGg HTTP/1.1" 200 277
+2019-04-05 23:18:53,536 root INFO baseapi:23 responselog{'errcode': 0, 'errmsg': 'ok', 'access_token': '4h4KJrn62QvO46OUO0huWxEx75-tnq7NbRdmPg-J59U0dH3yk65x1YYOagAVqjv6sdIIHg06PE5CQAv1KbPpbtwY4dtWXq8GLLwRvjVXNHGW4q73m-hp7ieiJcNtJ7T48xKN_pdkxHCmbYSIxm8j6OfgIzUoevVHCWhrP8IXq12Tl355VoPx8M5bmouvcYDQWg4VWbkdJhnYze_AO87C4g', 'expires_in': 7200}
+2019-04-05 23:18:54,092 root INFO runner:38 End to execute APP UI automaction cases
+2019-04-05 23:19:31,031 root INFO runner:25 Start to execute  automation cases
+2019-04-05 23:19:31,427 root INFO baseapi:12 init base api interface
+2019-04-05 23:19:31,427 root INFO membermanagment:12 Init department management API
+2019-04-05 23:19:31,428 root INFO baseapi:20 params{'corpid': 'wwfe4174faec32f8b3', 'corpsecret': 'PgnL0IVtMoCkpcdcURPs8COvwaPVD8pk5LGgwQgPXGg'}
+2019-04-05 23:19:31,428 root INFO baseapi:21 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-05 23:19:31,432 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-05 23:19:31,723 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwfe4174faec32f8b3&corpsecret=PgnL0IVtMoCkpcdcURPs8COvwaPVD8pk5LGgwQgPXGg HTTP/1.1" 200 277
+2019-04-05 23:19:31,729 root INFO baseapi:23 responselog{'errcode': 0, 'errmsg': 'ok', 'access_token': '4h4KJrn62QvO46OUO0huWxEx75-tnq7NbRdmPg-J59U0dH3yk65x1YYOagAVqjv6sdIIHg06PE5CQAv1KbPpbtwY4dtWXq8GLLwRvjVXNHGW4q73m-hp7ieiJcNtJ7T48xKN_pdkxHCmbYSIxm8j6OfgIzUoevVHCWhrP8IXq12Tl355VoPx8M5bmouvcYDQWg4VWbkdJhnYze_AO87C4g', 'expires_in': 7200}
+2019-04-05 23:19:31,730 root DEBUG membermanagment:63 url:https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-04-05 23:19:31,730 root DEBUG membermanagment:64 params:{'access_token': '4h4KJrn62QvO46OUO0huWxEx75-tnq7NbRdmPg-J59U0dH3yk65x1YYOagAVqjv6sdIIHg06PE5CQAv1KbPpbtwY4dtWXq8GLLwRvjVXNHGW4q73m-hp7ieiJcNtJ7T48xKN_pdkxHCmbYSIxm8j6OfgIzUoevVHCWhrP8IXq12Tl355VoPx8M5bmouvcYDQWg4VWbkdJhnYze_AO87C4g'}
+2019-04-05 23:19:31,740 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-05 23:19:32,134 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=4h4KJrn62QvO46OUO0huWxEx75-tnq7NbRdmPg-J59U0dH3yk65x1YYOagAVqjv6sdIIHg06PE5CQAv1KbPpbtwY4dtWXq8GLLwRvjVXNHGW4q73m-hp7ieiJcNtJ7T48xKN_pdkxHCmbYSIxm8j6OfgIzUoevVHCWhrP8IXq12Tl355VoPx8M5bmouvcYDQWg4VWbkdJhnYze_AO87C4g HTTP/1.1" 200 166
+2019-04-05 23:19:32,470 root INFO runner:38 End to execute APP UI automaction cases
+2019-04-05 23:20:12,836 root INFO runner:25 Start to execute  automation cases
+2019-04-05 23:20:13,225 root INFO baseapi:12 init base api interface
+2019-04-05 23:20:13,225 root INFO membermanagment:12 Init department management API
+2019-04-05 23:20:13,225 root INFO baseapi:20 params{'corpid': 'wwfe4174faec32f8b3', 'corpsecret': 'PgnL0IVtMoCkpcdcURPs8COvwaPVD8pk5LGgwQgPXGg'}
+2019-04-05 23:20:13,226 root INFO baseapi:21 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-05 23:20:13,230 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-05 23:20:13,743 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwfe4174faec32f8b3&corpsecret=PgnL0IVtMoCkpcdcURPs8COvwaPVD8pk5LGgwQgPXGg HTTP/1.1" 200 277
+2019-04-05 23:20:13,752 root INFO baseapi:23 responselog{'errcode': 0, 'errmsg': 'ok', 'access_token': '4h4KJrn62QvO46OUO0huWxEx75-tnq7NbRdmPg-J59U0dH3yk65x1YYOagAVqjv6sdIIHg06PE5CQAv1KbPpbtwY4dtWXq8GLLwRvjVXNHGW4q73m-hp7ieiJcNtJ7T48xKN_pdkxHCmbYSIxm8j6OfgIzUoevVHCWhrP8IXq12Tl355VoPx8M5bmouvcYDQWg4VWbkdJhnYze_AO87C4g', 'expires_in': 7200}
+2019-04-05 23:20:13,753 root DEBUG membermanagment:63 url:https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-04-05 23:20:13,753 root DEBUG membermanagment:64 params:{'access_token': '4h4KJrn62QvO46OUO0huWxEx75-tnq7NbRdmPg-J59U0dH3yk65x1YYOagAVqjv6sdIIHg06PE5CQAv1KbPpbtwY4dtWXq8GLLwRvjVXNHGW4q73m-hp7ieiJcNtJ7T48xKN_pdkxHCmbYSIxm8j6OfgIzUoevVHCWhrP8IXq12Tl355VoPx8M5bmouvcYDQWg4VWbkdJhnYze_AO87C4g'}
+2019-04-05 23:20:13,764 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-05 23:20:14,125 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=4h4KJrn62QvO46OUO0huWxEx75-tnq7NbRdmPg-J59U0dH3yk65x1YYOagAVqjv6sdIIHg06PE5CQAv1KbPpbtwY4dtWXq8GLLwRvjVXNHGW4q73m-hp7ieiJcNtJ7T48xKN_pdkxHCmbYSIxm8j6OfgIzUoevVHCWhrP8IXq12Tl355VoPx8M5bmouvcYDQWg4VWbkdJhnYze_AO87C4g HTTP/1.1" 200 176
+2019-04-05 23:20:14,618 root INFO runner:38 End to execute APP UI automaction cases
+2019-04-05 23:21:29,365 root INFO runner:25 Start to execute  automation cases
+2019-04-05 23:21:29,881 root INFO baseapi:12 init base api interface
+2019-04-05 23:21:29,883 root INFO membermanagment:12 Init department management API
+2019-04-05 23:21:29,883 root INFO baseapi:20 params{'corpid': 'wwfe4174faec32f8b3', 'corpsecret': 'PgnL0IVtMoCkpcdcURPs8COvwaPVD8pk5LGgwQgPXGg'}
+2019-04-05 23:21:29,883 root INFO baseapi:21 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-05 23:21:29,888 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-05 23:21:30,210 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwfe4174faec32f8b3&corpsecret=PgnL0IVtMoCkpcdcURPs8COvwaPVD8pk5LGgwQgPXGg HTTP/1.1" 200 277
+2019-04-05 23:21:30,217 root INFO baseapi:23 responselog{'errcode': 0, 'errmsg': 'ok', 'access_token': '4h4KJrn62QvO46OUO0huWxEx75-tnq7NbRdmPg-J59U0dH3yk65x1YYOagAVqjv6sdIIHg06PE5CQAv1KbPpbtwY4dtWXq8GLLwRvjVXNHGW4q73m-hp7ieiJcNtJ7T48xKN_pdkxHCmbYSIxm8j6OfgIzUoevVHCWhrP8IXq12Tl355VoPx8M5bmouvcYDQWg4VWbkdJhnYze_AO87C4g', 'expires_in': 7200}
+2019-04-05 23:21:30,217 root DEBUG membermanagment:63 url:https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-04-05 23:21:30,217 root DEBUG membermanagment:64 params:{'access_token': '4h4KJrn62QvO46OUO0huWxEx75-tnq7NbRdmPg-J59U0dH3yk65x1YYOagAVqjv6sdIIHg06PE5CQAv1KbPpbtwY4dtWXq8GLLwRvjVXNHGW4q73m-hp7ieiJcNtJ7T48xKN_pdkxHCmbYSIxm8j6OfgIzUoevVHCWhrP8IXq12Tl355VoPx8M5bmouvcYDQWg4VWbkdJhnYze_AO87C4g'}
+2019-04-05 23:21:30,224 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-05 23:21:30,703 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=4h4KJrn62QvO46OUO0huWxEx75-tnq7NbRdmPg-J59U0dH3yk65x1YYOagAVqjv6sdIIHg06PE5CQAv1KbPpbtwY4dtWXq8GLLwRvjVXNHGW4q73m-hp7ieiJcNtJ7T48xKN_pdkxHCmbYSIxm8j6OfgIzUoevVHCWhrP8IXq12Tl355VoPx8M5bmouvcYDQWg4VWbkdJhnYze_AO87C4g HTTP/1.1" 200 32
+2019-04-05 23:21:30,744 root INFO runner:38 End to execute APP UI automaction cases

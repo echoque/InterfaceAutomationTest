@@ -32,3 +32,52 @@ class BaseAPI:
     def get_response(self):
         return self.res.json()
 
+"""
+上传图片
+1、请求参数需传入access_token：调用test_get_access_token()
+2、请求body需传入media_id ：调用test_get_media_id()
+"""
+
+
+##参考接口文档https://work.weixin.qq.com/api/doc#90000/90135/90236
+def send_image(self):
+    access_token=self.get_token(secret='')
+    media_id=get_media_id()
+    image_body_json={
+   "touser" : "ZhongYaQi",
+   # "toparty" : "PartyID1|PartyID2",
+   # "totag" : "TagID1 | TagID2",
+   "msgtype" : "image",
+   "agentid" : 1000003,
+   "image" : {
+        "media_id" : media_id
+   },
+   "safe":0
+}
+    payload={
+        'access_token':access_token
+    }
+    print(media_id,access_token)
+    url='https://qyapi.weixin.qq.com/cgi-bin/message/send'
+    res=requests.post(url,json=image_body_json,params=payload,proxies=myproxy)
+    print(res.json())
+    assert res.json().get('errmsg')=="ok"
+    assert res.json().get('errcode')==0
+
+##参考接口文档https://work.weixin.qq.com/api/doc#90000/90135/91039
+
+##参考接口文档https://work.weixin.qq.com/api/doc#90000/90135/90253
+def get_media_id(self):
+    access_token=self.get_token(secret='')
+    payload={
+        'access_token':access_token,
+        'type':'image'
+    }
+    url='https://qyapi.weixin.qq.com/cgi-bin/media/upload'
+    ##http://docs.python-requests.org/en/master/user/quickstart/#post-a-multipart-encoded-file
+    files={'media':('wz_20190330222654.jpg',open('C:\\Users\\zhongyaqi\\Desktop\\wz_20190330222654.jpg','rb'),'image/jpg')}
+    res=requests.post(url,files=files,params=payload)
+    return res.json().get('media_id')
+    assert res.json().get('errmsg')=='ok'
+
+

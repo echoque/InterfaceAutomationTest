@@ -1,17 +1,17 @@
 {
-    "userid": "zhangsan",
-    "name": "张三",
+    "userid": "zhongyaqi",
+    "name": "仲雅琦",
     "alias": "jackzhang",
-    "mobile": "15913215421",
+    "mobile": "153215421223",
     "department": [1, 2],
     "order":[10,40],
     "position": "产品经理",
     "gender": "1",
-    "email": "zhangsan@gzdev.com",
+    "email": "zhongyaqi@gzdev.com",
     "is_leader_in_dept": [1, 0],
     "enable":1,
     "avatar_mediaid": "2-G6nrLmr5EC3MNb_-zL1dDdzkd0p7cNliYu9V5w7o8K0",
-    "telephone": "020-123456",
+    "telephone": "550-123456",
     "address": "广州市海珠区新港中路",
     "extattr": {
         "attrs": [
